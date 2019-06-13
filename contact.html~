@@ -49,7 +49,7 @@
 				<a class="btn my_button" href="https://github.com/kroefeet" target="_blank" role="button">GitHub</a>
     		</div>
     		<div class="col-md-6 light_div page_heading text-center">
-			   <img src="img/profile.jpg" class="img-fluid" alt="placeholder for professional picture"> 		
+			   <img src="img/profile.jpg" alt="placeholder for professional picture"> 		
     		</div>
     	   		
     	</div>

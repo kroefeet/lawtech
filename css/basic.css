@@ -1,0 +1,98 @@
+ 
+ body {
+ background-image: url("../img/background.jpg");
+ background-color: #cccccc;
+ height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.jumbotron {
+margin-top: 2rem;
+margin-bottom: 2 rem;
+padding: .75rem;
+}
+
+h1, h2, h3, p {
+color: #344f5b;
+
+}
+
+.dark_div {
+background-color: #344f5b;
+}
+
+.light_div {
+background-color: #f5e4c9;
+}
+
+.my_button {
+background-color: #81aea5;
+color: #f5e4c9;
+}
+
+.my_card {
+padding: .75rem;
+}
+
+a:hover{
+color: #344f5b;
+}
+
+.category {
+color: #dd4849;
+text-align: right;
+}
+
+.subheading {
+color: #344f5b;
+margin-bottom: 2rem;
+padding: 1rem;
+}
+
+.page_heading {
+color: #344f5b;
+padding: 1rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+.intro {
+padding: .5rem;
+}
+
+.post {
+padding: 1rem;
+margin: auto;
+}
+
+.project_list {
+margin-top: 2rem;
+padding: .75rem;
+}
+
+.list-group-item {
+background-color: #f5e4c9;
+color: #344f5b;  
+}
+
+.list-group-item.active {
+color: #f5e4c9;
+background-color: #344f5b;  
+}
+
+.tab-content {
+background-color: #f5e4c9;
+color: #344f5b;
+padding: 1rem;
+}
+
+.explanation {
+padding: .5rem;
+}
+
+.about {
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
