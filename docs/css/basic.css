@@ -96,3 +96,12 @@ padding: .5rem;
 padding-top: 1rem;
 padding-bottom: 1rem;
 }
+
+.footer {
+margin-top: 2rem;
+color: #f5e4c9
+}
+
+.footer a {
+color: #f5e4c9
+}
