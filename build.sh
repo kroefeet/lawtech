@@ -1,7 +1,7 @@
 #!/bin/bash
 #get content file name
 
-echo What is the name of your content page?
+echo What is the name of your content page? ex-'index.html'
 
 read pagename
 
