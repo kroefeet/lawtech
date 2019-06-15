@@ -5,7 +5,7 @@ echo What is the name of your content page?
 
 read pagename
 
-cat templates/top.html content/pagename templates/bottom.html > docs/$pagename
+cat templates/top.html content/$pagename templates/bottom.html > docs/$pagename
 
 location=docs/$pagename
 
