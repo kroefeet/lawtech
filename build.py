@@ -9,4 +9,4 @@ page = open('content/'+page_name).read()
 new_page = (top + page + bottom)
 
 open('docs/'+page_name, 'w+').write(new_page)
-print("Your page should now be available here: docs/{page_name}")
+print("Your page should now be available here: docs/{}".format(page_name))
