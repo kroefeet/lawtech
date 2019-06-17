@@ -1,0 +1,59 @@
+
+      
+      <div class="row">
+          <div class=" col-md-6 light_div page_heading">
+            <h1>Contact</h1>
+				<p class="intro">I am available a number of different ways:</p>
+				<a class="btn my_button" href="mailto:joe@law.technology" role="button">Email</a>
+				<a class="btn my_button" href="https://github.com/kroefeet" target="_blank" role="button">GitHub</a>
+    		</div>
+    		<div class="col-md-6 light_div page_heading text-center">
+			   <img src="img/profile.jpg" class="img-fluid" alt="placeholder for professional picture"> 		
+    		</div>
+    	   		
+    	</div>
+    	
+    	<div class="row">
+    	
+    		<div class="col-md-4 light_div about">
+    		<p><strong>What are my qualifications?</strong></p>
+    		
+    		</div>
+    		<div class="col-md-8 light_div explanation about">
+    		<p>I am a librarian with experience in legal research, project management, graphic design, computer programming and more. I have 10+ years of experience as a librarian and a lifetime of curiosity.</p>
+    		    		
+    		</div>
+ 	
+    	</div>
+    	
+    	<div class="row">
+    	
+    		<div class="col-md-4 light_div about">
+    		<p><strong>Why do I care?</strong></p>
+    		
+    		</div>
+    		<div class="col-md-8 light_div explanation about">
+    		<p>I think there is an idea that librarians are supposed to be trustworthy human beings that exist to support people (all people). 
+    		I feel like technology has made an effort to try to replace librarians in the area of information and research while also undermining the general population.
+    		I hope to bring a bit of awareness to the costs of technology in every day life and help others get a grip on what they are doing with technology and why they are doing it.
+    		
+    		</p>
+    		
+    		</div>
+ 	
+    	</div>
+   	
+    	<div class="row">
+    	
+    		<div class="col-md-4 light_div about">
+    		<p><strong>Why should you care?</strong></p>
+    		
+    		</div>
+    		<div class="col-md-8 light_div explanation about">
+    		<p>You should care about this because technology is all around us. We all need to choose the technology we use and think about why we are using it.</p>
+    		
+    		</div>
+ 	
+    	</div>
+
+    </div><!-- /.container -->
