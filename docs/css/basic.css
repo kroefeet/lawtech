@@ -75,7 +75,7 @@ a:hover{
 
 .post {
 	padding: 1rem;
-	margin: auto;
+	float: left;
 }
 
 .project_list {

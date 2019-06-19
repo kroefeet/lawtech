@@ -75,7 +75,8 @@ a:hover{
 
 .post {
 	padding: 1rem;
-	margin: auto;
+	margin: 1%;
+	float: left;
 }
 
 .project_list {
@@ -116,6 +117,6 @@ a:hover{
 }
 
 .footer {
-	margin: .5rem;
+	margin-top: 1rem;
 }
 
