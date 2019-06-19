@@ -91,3 +91,8 @@ padding: 1rem;
 .explanation {
 padding: .5rem;
 }
+
+.about {
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
