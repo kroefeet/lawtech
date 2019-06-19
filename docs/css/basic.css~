@@ -95,4 +95,18 @@ padding: .5rem;
 .about {
 padding-top: 1rem;
 padding-bottom: 1rem;
+<<<<<<< HEAD:css/basic.css~
+=======
+
+}
+
+.footer {
+margin-top: 2rem;
+color: #f5e4c9
+}
+
+.footer a {
+color: #f5e4c9
+
+>>>>>>> dc805ec00eed70318aa8e712b3db25ee2b071749:docs/css/basic.css
 }
