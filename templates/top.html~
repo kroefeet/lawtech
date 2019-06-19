@@ -18,7 +18,9 @@
 
   <body>
 
-     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<div class="container">
+
+     <nav class="navbar navbar-expand-md bg-dark ">
       <a class="navbar-brand" href="index.html">Law.Technology</a>
       
 
@@ -38,6 +40,6 @@
       </div>
     </nav>
 
-
+</div>
 <div class="container">
 

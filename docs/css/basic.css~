@@ -6,6 +6,15 @@
 	padding: .75rem;
 }
 
+.navbar {
+	background-color: #000;
+	color: #fff;
+}
+
+.navbar a {
+	color: #fff;
+}
+
 /* content and body styles */
 
  body {
@@ -18,7 +27,7 @@
 }
 
 h1, h2, h3, p {
-	color: #344f5b;
+	color: #666;
 }
 
 .dark_div {
@@ -101,5 +110,12 @@ a:hover{
 
 /* footer styles */ 
 
+.footer a, p {
+	color: #666;
+	text-align: center;
+}
 
+.footer {
+	margin: .5rem;
+}
 
