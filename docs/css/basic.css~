@@ -22,16 +22,16 @@ h1, h2, h3, p {
 }
 
 .dark_div {
-	background-color: #344f5b;
+	background-color: #000;
 }
 
 .light_div {
-	background-color: #f5e4c9;
+	background-color: #fff;
 }
 
 .my_button {
-	background-color: #81aea5;
-	color: #f5e4c9;
+	background-color: #666;
+	color: #fff;
 }
 
 .my_card {
@@ -39,22 +39,22 @@ h1, h2, h3, p {
 }
 
 a:hover{
-	color: #344f5b;
+	color: #000;
 }
 
 .category {
-	color: #dd4849;
+	color: #00FF00;
 	text-align: right;
 }
 
 .subheading {
-	color: #344f5b;
+	color: #000;
 	margin-bottom: 2rem;
 	padding: 1rem;
 }
 
 .page_heading {
-	color: #344f5b;
+	color: #000;
 	padding: 1rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -75,18 +75,18 @@ a:hover{
 }
 
 .list-group-item {
-	background-color: #f5e4c9;
-	color: #344f5b;  
+	background-color: #fff;
+	color: #000;  
 }
 
 .list-group-item.active {
-	color: #f5e4c9;
-	background-color: #344f5b;  
+	color: #000;
+	background-color: #fff;  
 }
 
 .tab-content {
-	background-color: #f5e4c9;
-	color: #344f5b;
+	background-color: #fff;
+	color: #000;
 	padding: 1rem;
 }
 
