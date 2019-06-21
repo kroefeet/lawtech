@@ -15,6 +15,14 @@
 	color: #fff;
 }
 
+.navbar a:hover {
+	color: #666;
+}
+
+.nav-item.active a {
+	color: #00FF00;
+}
+
 /* content and body styles */
 
  body {

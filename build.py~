@@ -10,7 +10,7 @@ if regenerate.lower() == 'yes':
 	index_page = open('content/index.html').read()
 	index_html = template.safe_substitute(
 		title="Home",	
-		home_class="active",
+		index_class="active",
 		content=index_page,
 	)	
 	open('docs/index.html', 'w+').write(index_html)
