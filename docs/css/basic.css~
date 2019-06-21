@@ -19,7 +19,7 @@
 	color: #666;
 }
 
-.nav-item.active {
+.nav-item.active a {
 	color: #00FF00;
 }
 

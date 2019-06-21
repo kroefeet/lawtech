@@ -59,6 +59,10 @@ a:hover{
 	color: #000;
 }
 
+a {
+	color: #00FF00;
+}
+
 .category {
 	color: #00FF00;
 	text-align: right;
@@ -97,8 +101,8 @@ a:hover{
 }
 
 .list-group-item.active {
-	color: #000;
-	background-color: #fff;  
+	color: #00FF00;
+	background-color: #666;  
 }
 
 .tab-content {
