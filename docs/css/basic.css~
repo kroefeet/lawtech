@@ -15,6 +15,14 @@
 	color: #fff;
 }
 
+.navbar a:hover {
+	color: #666;
+}
+
+.nav-item.active {
+	color: #00FF00;
+}
+
 /* content and body styles */
 
  body {
@@ -75,7 +83,6 @@ a:hover{
 
 .post {
 	padding: 1rem;
-	margin: 1%;
 	float: left;
 }
 
