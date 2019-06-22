@@ -1,6 +1,6 @@
 # import pages dictionary
 from pages import pages
-print(pages)
+#print(pages)
 
 # add new item to pages dict to be included in site generation
 def add_new_blog_post():
@@ -15,8 +15,9 @@ def add_new_blog_post():
 						"navclass": navclass
 					} 
 	pages.append(dict(blog_post))
-	print(blog_post)	
+	#print(blog_post)	
 	#open("pages.py", 'w+').append(blog_post)
+	# TODO: How to write this dictionary to the external pages list in pages.py
 	return
 	
 
@@ -65,7 +66,7 @@ def main():
 	if add_new.lower() == "yes":
 		add_new_blog_post()
 		print("New page added for site regeneration. ")
-		print(pages)
+		#print(pages)
 		
 	else:
 		print("No new pages added for site regeneration. ")	
