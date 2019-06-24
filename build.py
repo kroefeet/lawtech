@@ -1,24 +1,38 @@
 # import pages dictionary
 from pages import pages
-#print(pages)
+from pages import blog_posts
+
+#get current year for footer copyright
+import datetime
+d = datetime.datetime.today()
+year = (d.year)
+print(year)
 
 # add new item to pages dict to be included in site generation
-def add_new_blog_post():
-	filename = input("What is the filename as found in the content folder? ")
-	output = "docs/"+filename
-	title = input("What would you like the title to be? (limit to 2 words) ")
-	navclass = "blog_class"
-	blog_post = {
-						"filename": "content/"+filename,
-						"output": output,
-						"title": title,
-						"navclass": navclass
-					} 
-	pages.append(dict(blog_post))
-	#print(blog_post)	
-	#open("pages.py", 'w+').append(blog_post)
-	# TODO: How to write this dictionary to the external pages list in pages.py
-	return
+#def add_new_blog_post(dict):
+#	from string import Template
+#	blog_base_text = open('blog_base.html').read()
+#	template = Template(blog_base_text)	
+#	
+#	for blog_post in blog_posts:
+#			#create individual blog post pages
+#			new_blog_post = open(blog_post["filename"]).read()
+#			
+#	filename = input("What is the filename as found in the blog folder? ")
+#	output = "docs/blog_"+filename
+#	title = input("What would you like the title to be? (limit to 2 words) ")
+#	navclass = "blog_class"
+#	blog_post = {
+#						"filename": "blog/"+filename,
+#						"output": output,
+#						"navclass": "blog_class"
+#						"title" : 
+#					} 
+#	pages.append(dict(blog_post))
+#	#print(blog_post)	
+#	#open("pages.py", 'w+').append(blog_post)
+#	# TODO: How to write this dictionary to the external pages list in pages.py
+#	return
 	
 
 

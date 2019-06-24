@@ -17,5 +17,26 @@ pages = [
 			"title": "Contact me",
 			"navclass": "contact_class",
 		},	
+		{
+			"filename": "content/blog.html",
+			"output": "docs/blog.html",
+			"title": "LawTech Blog",
+			"navclass": "blog_class",
+		},	
 	
+	]
+	
+blog_posts = [
+		{
+			"filename": "blog/disroot.html",
+			"title": "Disroot.org",
+			"date": "June 24, 2019",
+		},
+		{
+			"filename": "blog/elevator.html",
+			"output": "docs/blog/elevator.html",
+			"title": "Spotted in an elevator",
+			"date": "June 01, 2019",
+		},
+		
 	]

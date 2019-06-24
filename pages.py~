@@ -1,0 +1,36 @@
+pages = [
+		{
+			"filename": "content/index.html",
+			"output": "docs/index.html",
+			"title": "Home",
+			"navclass": "home_class",
+		},
+		{
+			"filename": "content/projects.html",
+			"output": "docs/projects.html",
+			"title": "Projects",
+			"navclass": "projects_class",
+		},
+		{
+			"filename": "content/contact.html",
+			"output": "docs/contact.html",
+			"title": "Contact me",
+			"navclass": "contact_class",
+		},	
+	
+	]
+	
+blog_posts = [
+		{
+			"filename": "blog/disroot.html",
+			"title": "Disroot.org",
+			"date": "June 24, 2019",
+		},
+		{
+			"filename": "blog/elevator.html",
+			"output": "docs/blog/elevator.html",
+			"title": "Spotted in an elevator",
+			"date": "June 01, 2019",
+		},
+		
+	]
