@@ -6,7 +6,6 @@ from pages import blog_posts
 import datetime
 d = datetime.datetime.today()
 year = (d.year)
-print(year)
 
 # add new item to pages dict to be included in site generation
 #def add_new_blog_post(dict):

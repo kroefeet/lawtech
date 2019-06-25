@@ -79,14 +79,14 @@ def make_page(dict):
 
 # run functions and create site
 def main():
-	add_new = input("Would you like to add a new blog post to the list? (yes/no) ")
-	if add_new.lower() == "yes":
-		add_new_blog_post()
-		print("New page added for site regeneration. ")
-		#print(pages)
-		
-	else:
-		print("No new pages added for site regeneration. ")	
+#	add_new = input("Would you like to add a new blog post to the list? (yes/no) ")
+#	if add_new.lower() == "yes":
+#		add_new_blog_post()
+#		print("New page added for site regeneration. ")
+#		#print(pages)
+#		
+#	else:
+#		print("No new pages added for site regeneration. ")	
 	
 	regenerate = input("Regenerate site? (yes/no) ")
 	

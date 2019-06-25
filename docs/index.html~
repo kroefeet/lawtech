@@ -53,7 +53,7 @@
 
         <div class="jumbotron jumbotron-fluid rounded light_div text-center">
         
-          <h1 class="display-4 font-italic">Welcome to Law.Technology</h1>
+          <h1 class="display-4 font-italic">The Law.Technology blog</h1>
           <p class="lead my-3">Protect your privacy, help others protect theirs, evaluate your options.</p>
           <a class="btn my_button" href="contact.html" role="button">Read more</a>
         </div>
