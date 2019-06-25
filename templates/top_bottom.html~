@@ -36,6 +36,9 @@
           <li class="nav-item ${contact_class}">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
+          <li class="nav-item ${blog_class}">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
         </ul>
         
       </div>
@@ -58,7 +61,7 @@ ${content}
 
    <div class="container">
       <footer class="footer dark_div">
-     		 <p> <strong>&copy; 2019</strong>  <a href="">law.technology</a></p>
+     		 <p> <strong>&copy; ${year}</strong>  <a href="">law.technology</a></p>
    	 </footer>
 	</div>
 

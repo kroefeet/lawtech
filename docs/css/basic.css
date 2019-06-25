@@ -83,6 +83,8 @@ a {
 	padding: 1rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .intro {
@@ -117,6 +119,7 @@ a {
 
 .explanation {
 	padding: .5rem;
+	text-align: left;
 }
 
 .about {
@@ -126,12 +129,14 @@ a {
 
 /* footer styles */ 
 
-.footer a, p {
+footer.footer a {
 	color: #666;
 	text-align: center;
 }
 
 .footer {
 	margin-top: 1rem;
+	text-align: center;
+	color: #666;
 }
 

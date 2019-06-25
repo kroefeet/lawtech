@@ -6,7 +6,6 @@ from pages import blog_posts
 import datetime
 d = datetime.datetime.today()
 year = (d.year)
-print(year)
 
 # add new item to pages dict to be included in site generation
 #def add_new_blog_post(dict):
@@ -41,7 +40,7 @@ print(year)
 def make_page(dict):
 	from string import Template
 	top_bottom_text = open('templates/top_bottom.html').read()
-	template = Template(top_bottom_text)
+	template = Template(top_bottom_text)	
 	
 	for page in pages:
 			#print(page)
@@ -51,25 +50,29 @@ def make_page(dict):
 				page_html = template.safe_substitute(
 					title=page["title"],
 					content=new_page,				
-					home_class="active"
+					home_class="active",
+					copy_year = year,
 				)
 			elif nav_update == "contact_class":
 				page_html = template.safe_substitute(
 					title=page["title"],
 					content=new_page,
-					contact_class = "active"
+					contact_class = "active",
+					copy_year = year,
 				)
 			elif nav_update == "projects_class":
 				page_html = template.safe_substitute(
 					title=page["title"],
 					content=new_page,
-					projects_class = "active"
+					projects_class = "active",
+					copy_year = year,
 				)
 			else:
 				page_html = template.safe_substitute(
 					title=page["title"],
 					content=new_page,
-					blog_class = "active"
+					blog_class = "active",
+					copy_year = year,
 				)
 			
 			open(page["output"], 'w+').write(page_html)

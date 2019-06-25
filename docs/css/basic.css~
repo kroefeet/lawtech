@@ -55,8 +55,16 @@ h1, h2, h3, p {
 	padding: .75rem;
 }
 
+a {
+	color: #00FF00;
+}
+
 a:hover{
 	color: #000;
+}
+
+a {
+	color: #00FF00;
 }
 
 .category {
@@ -75,6 +83,8 @@ a:hover{
 	padding: 1rem;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .intro {
@@ -97,8 +107,8 @@ a:hover{
 }
 
 .list-group-item.active {
-	color: #000;
-	background-color: #fff;  
+	color: #00FF00;
+	background-color: #666;  
 }
 
 .tab-content {
@@ -109,6 +119,7 @@ a:hover{
 
 .explanation {
 	padding: .5rem;
+	text-align: left;
 }
 
 .about {
@@ -118,12 +129,14 @@ a:hover{
 
 /* footer styles */ 
 
-.footer a, p {
+a.footer {
 	color: #666;
 	text-align: center;
 }
 
 .footer {
 	margin-top: 1rem;
+	text-align: center;
+	color: #666;
 }
 

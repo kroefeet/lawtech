@@ -1,6 +1,6 @@
 
-      <div class="row light_div rounded page_heading">
-          <div class=" col-md-12">
+      <div class="row">
+          <div class=" col-md-12 light_div page_heading">
             <h1>Projects</h1>
 				<p class="intro">Here are my blog posts. They need to be connected to the blog post lists to read in</p>
     		</div>
