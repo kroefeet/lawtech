@@ -1,0 +1,18 @@
+     
+     
+      <div class="row light_div rounded page_heading">
+          <div class=" col-md-6">
+            <h1>${title}</h1>
+            <p>${date}</p>
+            
+            
+            ${content}
+            
+            
+       </div>
+ 	
+    		</div>
+    	
+    		
+    		</div>
+    	</div>
