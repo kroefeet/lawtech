@@ -46,39 +46,26 @@ def make_page(dict):
 			#print(page)
 			new_page = open(page["filename"]).read()
 			nav_update = page["navclass"]
-			
-			# extra_kws = {"thing¨: 4}
-			# safe_substitue(something=3, **extra_kws)
+	
 			if nav_update == "home_class":	
-				page_html = main_template.safe_substitute(
-					title=page["title"],
-					content=new_page,				
-					home_class="active",
-					copy_year = year,
-				)
+					extra_kws = {"home_class":"active"}				
 			elif nav_update == "contact_class":
-				page_html = main_template.safe_substitute(
-					title=page["title"],
-					content=new_page,
-					contact_class = "active",
-					copy_year = year,
-				)
+					extra_kws = {"contact_class":"active"}	
 			elif nav_update == "projects_class":
-				page_html = main_template.safe_substitute(
-					title=page["title"],
-					content=new_page,
-					projects_class = "active",
-					copy_year = year,
-				)
-			else:
-				page_html = main_template.safe_substitute(
-					title=page["title"],
-					content=new_page,
-					blog_class = "active",
-					copy_year = year,
-				)
-
+					extra_kws = {"projects_class":"active"}		
+			else:	
+					extra_kws = {"blog_class":"active"}	
+			# extra_kws = {"thing¨: 4}
+			# safe_substitue(something=3, **extra_kws)			
 			
+			page_html = main_template.safe_substitute(
+					title=page["title"],
+					content=new_page,
+					copy_year = year,
+					**extra_kws,
+					)
+			
+						
 			open(page["output"], 'w+').write(page_html)
 
 # run functions and create site
