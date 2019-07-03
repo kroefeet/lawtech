@@ -1,6 +1,3 @@
-# import pages dictionary
-#from pages import pages
-#from pages import blog_posts
 import glob
 import os
 from jinja2 import Template
@@ -77,24 +74,35 @@ def make_page(pages):
 					)
 						
 			open(page["output"], 'w+').write(page_html)
+			
+#	This will create a new placeholder page in the content directory
+def create_placeholder(string):
+	placeholder_content= """
+			<h1>New Content!</h1>
+			<p>New content...</p>	
+		"""	
+	
+	if string.lower() == 'new':	
+		open("content/new_content_page.html", 'w+').write(placeholder_content)
+		print("Your placeholder page is in the content/ folder.")
+	elif string.lower() == 'blog':
+		open("blog/new_content_page.html", 'w+').write(placeholder_content)
+		print("Your placeholder blog post is in the blog/ folder.")
+	else:
+		print("The program didn't get that. Try again. ")
 
-# run functions and create site
-def main():
+			
+#This will run if a user wants to generate or regenerate the website using templates		
+def re_generate():			
 	pages = get_page_list()
 
 	regenerate = input("Regenerate site? (yes/no) ")
 	
 	if regenerate.lower() == 'yes':
 		make_page(pages)
-		#add_new_blog_posts()
 		print("Your site was regenerated. The new pages are in the docs/ folder")
 	else:
-		print("Your site was not regenerated.")		
-	
-
-
+		print("Your site was not regenerated.")	
 		
-if __name__ == "__main__":
-	main()
-
-
+		
+		

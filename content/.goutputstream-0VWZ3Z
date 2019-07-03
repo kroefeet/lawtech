@@ -1,0 +1,46 @@
+
+      <div class="row light_div rounded page_heading">
+          <div class=" col-md-12">
+            <h1>LawTech Blog</h1>
+				<p class="intro">Here are my blog posts. They need to be connected to the blog post lists to read in</p>
+    		</div>
+    		    		
+    		</div>
+    		
+    		<div class="row">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-disroot-list" data-toggle="list" href="#list-disroot" role="tab" aria-controls="home">Disroot.org</a>
+      <a class="list-group-item list-group-item-action" id="list-elevator-list" data-toggle="list" href="#list-elevator" role="tab" aria-controls="profile">Spotted in an elevator</a>
+      <a class="list-group-item list-group-item-action" id="list-openwireless-list" data-toggle="list" href="#list-openwireless" role="tab" aria-controls="profile">Openwireless.org</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+    
+    		{% if blog_title != '' %}
+
+
+      <div class="tab-pane fade show active" id="list-{{blog_title}}" role="tabpanel" aria-labelledby="list-{{blog_title}}-list">
+      	<p>Disroot.org is a great tool to read more about</p>
+			<a class="btn my_button" href="blog_disroot.html" role="button">Read more</a>      	
+      </div>
+      <div class="tab-pane fade" id="list-elevator" role="tabpanel" aria-labelledby="list-elevator-list">
+      	<p>This will have a picture of a picture taken in an elevator</p>
+			<a class="btn my_button" href="blog_elevator.html" role="button">Read more</a> 
+      </div>
+      <div class="tab-pane fade" id="list-openwireless" role="tabpanel" aria-labelledby="list-openwireless-list">
+      	<p>Make wireless more open</p>
+			<a class="btn my_button" href="blog_openwireless.html" role="button">Read more</a>  
+			
+			{% endif %}	     
+      </div>
+    </div>
+  </div>
+  
+  {
+				"content" : blog_post,
+				"output" : "docs/blog_" + blog_file,
+				"title" : "blog",
+				"blog_title" : blog_title,				
+				}	
